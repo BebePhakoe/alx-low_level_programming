@@ -4,14 +4,14 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
-{
-	int i;
+void print_alphabet(void)
 
-	for (i = 97; i <= 122; 1++)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(i);
+		 _putchar(c);
 	}
 	_putchar('\n');
-	return (0);
 }
