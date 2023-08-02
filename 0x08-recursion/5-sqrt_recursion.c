@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-int _sqrt(int n, int i)
+int _sqrt(int n, int i);
+
 /**
  * _sqrt_recursion - Entry point
  * @n: number to calculate the natural square root
@@ -18,7 +19,8 @@ int _sqrt_recursion(int n)
  * @i: iterate number
  * Return: natural square root
  */
-int _sqrt(int n, int i)
+
+int _sqrt(int n, int i);
 {
 	int sqrt = i * i;
 
